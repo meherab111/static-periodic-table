@@ -245,6 +245,8 @@ let arrElements = [
   "",
 ];
 
+// Element Set
+
 const PeriodicElement = (atomicNo, elementName, elementFullName) => {
   const element = document.createElement("div");
   element.classList.add("element");
@@ -256,6 +258,8 @@ const PeriodicElement = (atomicNo, elementName, elementFullName) => {
   return element;
 };
 
+// Click On Element Box
+
 const ElementClick = (event) => {
   const target = event.target;
   if (target.classList.contains("element")) {
@@ -266,6 +270,8 @@ const ElementClick = (event) => {
     );
   }
 };
+
+// Displaying All Elements
 
 const executeFunc = () => {
   const mainBody = document.querySelector(".mainBody");
