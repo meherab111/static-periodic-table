@@ -37,7 +37,6 @@ let arrElemFullName = [
   "Bromine",
   "Krypton",
   "Rubidium",
-
   "Strontium",
   "Yttrium",
   "Zirconium",
@@ -274,7 +273,7 @@ const ElementClick = (event) => {
 // Displaying All Elements
 
 const executeFunc = () => {
-  const mainBody = document.querySelector(".mainBody");
+  const mainBody = document.querySelector(".main-body");
 
   for (let i = 1; i <= 118; i++) {
     const element = PeriodicElement(

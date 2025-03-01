@@ -17,7 +17,7 @@ h1 {
   font-size: 5rem;
   margin-block: 3rem;
 }
-.mainBody {
+.main-body {
   gap: 1rem;
   display: flex;
   flex-wrap: wrap;
